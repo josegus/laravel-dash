@@ -1,0 +1,149 @@
+// Color system
+
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+$grays: (
+    "100": $gray-100,
+    "200": $gray-200,
+    "300": $gray-300,
+    "400": $gray-400,
+    "500": $gray-500,
+    "600": $gray-600,
+    "700": $gray-700,
+    "800": $gray-800,
+    "900": $gray-900
+);
+
+$blue:    #5969ff;
+$indigo:  #6610f2;
+$purple:  #6f42c1;
+$pink:    #ff407b;
+$red:     #ef172c;
+$orange:  #fd7e14;
+$yellow:  #ffc108;
+$green:   #2ec551;
+$teal:    #20c997;
+$cyan:    #25d5f2;
+
+$colors: (
+    "blue":       $blue,
+    "indigo":     $indigo,
+    "purple":     $purple,
+    "pink":       $pink,
+    "red":        $red,
+    "orange":     $orange,
+    "yellow":     $yellow,
+    "green":      $green,
+    "teal":       $teal,
+    "cyan":       $cyan,
+    "white":      $white,
+    "gray":       $gray-600,
+    "gray-dark":  $gray-800
+);
+
+$primary:   $blue;
+$secondary: $pink;
+$success:   $green;
+$info:      $cyan;
+$warning:   $yellow;
+$danger:    $red;
+
+
+// Typography
+
+$html-font-size:              14px;
+
+$font-family-sans-serif:      'Ubuntu', sans-serif;
+$font-family-monospace:       'Ubuntu', sans-serif;
+$font-family-base:            $font-family-sans-serif;
+
+$font-size-base:              1rem;
+
+$headings-font-family:        'Ubuntu', sans-serif;
+$headings-color:              #3d405c;
+
+$h1-font-size:                1.8rem;
+$h2-font-size:                1.6rem;
+$h3-font-size:                1.4rem;
+$h4-font-size:                1.2rem;
+$h5-font-size:                1rem;
+$h6-font-size:                0.8rem;
+
+
+// Body
+
+$body-bg:                     #efeff6;
+$body-color:                  #71748d;
+
+
+// Components
+
+$border-radius:               .25rem;
+$border-radius-lg:            .3rem;
+$border-radius-sm:            .2rem;
+
+
+// Forms
+
+$input-btn-focus-width:       .08rem;
+
+
+// Buttons
+
+$btn-border-radius:           $border-radius / 2;
+$btn-border-radius-lg:        $border-radius-lg / 2;
+$btn-border-radius-sm:        $border-radius-sm / 2;
+
+
+// Cards
+
+$card-cap-bg: #fff;
+
+
+// Links
+
+$link-hover-color:                        inherit;
+$link-hover-decoration:                   none;
+
+
+// Sidebar
+
+$sidebar-background: #373b5f;
+$sidebar-color: inherit;
+$sidebar-margin-top: 60px;
+$sidebar-width: 240px;
+$sidebar-collapse-width: 960px;
+
+$sidebar-link-padding-y: 12px;
+$sidebar-link-padding-x: 12px;
+
+$sidebar-item-font-size: 1rem;
+$sidebar-item-color: $gray-500;
+$sidebar-item-active-color: #fff;
+$sidebar-item-active-background: #242849;
+$sidebar-item-hover-color: $white;
+$sidebar-item-hover-background: #242849;
+
+$sidebar-submenu-background: #242849;
+$sidebar-submenu-item-font-size: .9rem;
+$sidebar-submenu-item-active-color: $white;
+$sidebar-submenu-item-active-background: #242849;
+$sidebar-submenu-item-hover-color: $white;
+$sidebar-submenu-item-hover-background: $sidebar-submenu-item-active-background;
+
+$sidebar-submenu-link-padding-top: 10px;
+$sidebar-submenu-link-padding-right: 0px;
+$sidebar-submenu-link-padding-bottom: 10px;
+$sidebar-submenu-link-padding-left: 35px;
+
+$sidebar-icon-margin-right: 10px;

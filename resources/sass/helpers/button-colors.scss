@@ -1,0 +1,14 @@
+@each $key, $val in $colors  {
+    .btn-#{$key} {
+        color: #fff !important;
+        background-color: $val !important;
+    }
+}
+
+@each $key, $value in $colors {
+    .btn-outline-#{$key} {
+        background-color: #fff !important;
+        border-color: $value !important;
+        color: $value !important;
+    }
+}

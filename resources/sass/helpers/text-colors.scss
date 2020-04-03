@@ -1,0 +1,11 @@
+@each $key, $val in $grays  {
+    .text-gray-#{$key} {
+        color: $val;
+    }
+}
+
+@each $key, $val in $colors  {
+    .text-#{$key} {
+        color: $val;
+    }
+}

@@ -1,0 +1,14 @@
+.page-header {
+    margin-bottom: 30px;
+}
+
+.page-header__title {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.page-header--flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

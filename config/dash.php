@@ -6,6 +6,10 @@ return [
      * Hooks used in js file
      */
     'hooks' => [
+
+        /*
+         * Sidebar toggler hook
+         */
         'sidebar_toggler' => 'js-sidebar-toggler',
     ],
 
@@ -15,7 +19,7 @@ return [
     'base_url' => '/',
 
     /*
-     * Used as prefix for auth routes
+     * Prefix name for admin routes. Example: "admin." will be converted to "admin.login" in login form
      */
     'route_prefix' => '',
 
@@ -74,6 +78,10 @@ return [
         'loader' => 'dash::layouts.loader',
     ],
 
+    /*
+     * Sections are areas where you can push content to views.
+     * Each section represents a @yield blade directive.
+     */
     'sections' => [
         'head' => 'head',
 
@@ -107,12 +115,12 @@ return [
 
     'fontawesome' => [
         /*
-         * Path to fontawesome. Must be a full path to css file
+         * Path to fontawesome. Must be a full path to css file. Set to null if you will use a cdn link
          */
         'path' => null,
 
         /*
-         * Link to fontawesome cdn
+         * Link to fontawesome cdn. Set to null if you will use a path to css file
          */
         'cdn' => 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css',
     ],
